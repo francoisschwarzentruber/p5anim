@@ -5,4 +5,7 @@ Simple animation editor using p5.js
 
 ## How to?
 
-Write p5.js instructions (without space!) in the text area. The timeline is the text area itself. You can also enter special variable assignments of the `x=a::::::::::::::b` meaning that variable `x` ranges from `a` to `b` in the corresponding time interval.
+- Write p5.js instructions (without space!) in the text area.
+- The timeline is the text area itself.
+- Special variable assignments of the form `x=a::::::::::::::b` means that variable `x` ranges from `a` to `b` in the corresponding time interval.
+- The symbol `|` stops the execution of the previous instruction on that line.
